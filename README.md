@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Bolusti17
+- 👋 Hi, I’m Isaac Oladokun
 - 👀 I’m interested in Data science
 - 🌱 I’m currently learning Python programming
 - 💞️ I’m looking to collaborate in Data science or python programming 
