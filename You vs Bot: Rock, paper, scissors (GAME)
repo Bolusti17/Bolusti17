@@ -1,0 +1,53 @@
+#_GAME_:_ROCK_PAPER_SCISSORS
+
+import random
+def your_choice():
+  return input("Choose rock, paper or scissors. Your choice is ").capitalize()
+#save your_choice as yc for easy coding
+yc = your_choice()
+print(yc)
+
+bot = ("rock", "paper", "scissors")
+bot = random.choice(bot)
+
+#bot condition for rock
+if bot=="rock":
+ if yc in ["Rock", "Rock."]:
+   print("The bot chose rock!")
+   print("It's a tie!")
+ elif yc in ["Paper", "Paper."]:
+   print("The bot chose rock!")
+   print("You win!")
+ elif yc in ["Scissors", "Scissors."]:
+   print("The bot chose rock!")
+   print("You lose.")
+ else:
+   print("Unrecognized answer.")
+   
+#bot condition for paper 
+if bot=="paper":
+ if yc in ["Rock", "Rock."]:
+   print("The bot chose paper!")
+   print("You lose.")
+ elif yc in ["Paper", "Paper."]:
+   print("The bot chose paper!")
+   print("It's a tie!")
+ elif yc in ["Scissors", "Scissors."]:
+   print("The bot chose paper!")
+   print("You win!")
+ else:
+   print("Unrecognized answer.")
+   
+#bot condition for scissors
+if bot=="scissors":
+ if yc in ["Rock", "Rock."]:
+   print("The bot chose scissors!")
+   print("You win!")
+ elif yc in ["Paper", "Paper."]:
+   print("The bot chose scissors!")
+   print("You lose.")
+ elif yc in ["Scissors", "Scissors."]:
+   print("The bot chose scissors!")
+   print("It's a tie!")
+ else:
+   print("Unrecognized answer.")
